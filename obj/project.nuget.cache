@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "JgAeV7+1gy8=",
+  "success": true,
+  "projectFilePath": "D:\\QQBot\\QQBot\\QQBot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\86157\\.nuget\\packages\\lagrange.core\\0.2.1\\lagrange.core.0.2.1.nupkg.sha512",
+    "C:\\Users\\86157\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\86157\\.nuget\\packages\\protobuf-net\\3.2.16\\protobuf-net.3.2.16.nupkg.sha512",
+    "C:\\Users\\86157\\.nuget\\packages\\protobuf-net.core\\3.2.16\\protobuf-net.core.3.2.16.nupkg.sha512",
+    "C:\\Users\\86157\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
+    "C:\\Users\\86157\\.nuget\\packages\\system.drawing.common\\8.0.5\\system.drawing.common.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

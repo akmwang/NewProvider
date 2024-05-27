@@ -1,0 +1,130 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "QQBot/1.0.0": {
+        "dependencies": {
+          "Lagrange.Core": "0.2.1",
+          "System.Drawing.Common": "8.0.5"
+        },
+        "runtime": {
+          "QQBot.dll": {}
+        }
+      },
+      "Lagrange.Core/0.2.1": {
+        "dependencies": {
+          "protobuf-net": "3.2.16"
+        },
+        "runtime": {
+          "lib/net6.0/Lagrange.Core.dll": {
+            "assemblyVersion": "0.2.1.0",
+            "fileVersion": "0.2.1.0"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "protobuf-net/3.2.16": {
+        "dependencies": {
+          "protobuf-net.Core": "3.2.16"
+        },
+        "runtime": {
+          "lib/net6.0/protobuf-net.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.2.16.54102"
+          }
+        }
+      },
+      "protobuf-net.Core/3.2.16": {
+        "dependencies": {
+          "System.Collections.Immutable": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/protobuf-net.Core.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.2.16.54102"
+          }
+        }
+      },
+      "System.Collections.Immutable/7.0.0": {},
+      "System.Drawing.Common/8.0.5": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.524.21704"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QQBot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lagrange.Core/0.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XuswHCLUNkkkVgbbJidQSOKAE/BsCCbsI66sRBsJ+VFHpGWS4//JY+mt5J0ZSq/KsdUKCFtBMlHSAt59rD+H3w==",
+      "path": "lagrange.core/0.2.1",
+      "hashPath": "lagrange.core.0.2.1.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "hashPath": "microsoft.win32.systemevents.8.0.0.nupkg.sha512"
+    },
+    "protobuf-net/3.2.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W6RM2B2f5O7SigBGfkXFYzI/a7Mks+rCHtuGlE/b5O3NMupDon7I0akjCLhrfcnqIfdWDkDafseav/MnIzUSHA==",
+      "path": "protobuf-net/3.2.16",
+      "hashPath": "protobuf-net.3.2.16.nupkg.sha512"
+    },
+    "protobuf-net.Core/3.2.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZFoY0lfMUWGJ4RoyI0oNj2o2l8t08n3k27YyDD0kYWQ+vXj0hTbWEwYWOpGAfCWvyUPkq9Jcc/4uR74GICZL2g==",
+      "path": "protobuf-net.core/3.2.16",
+      "hashPath": "protobuf-net.core.3.2.16.nupkg.sha512"
+    },
+    "System.Collections.Immutable/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dQPcs0U1IKnBdRDBkrCTi1FoajSTBzLcVTpjO4MBCMC7f4pDOIPzgBoX8JjG7X6uZRJ8EBxsi8+DR1JuwjnzOQ==",
+      "path": "system.collections.immutable/7.0.0",
+      "hashPath": "system.collections.immutable.7.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/8.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n55wb6rL8YG254AG+SfQOSQencrcnpKAAcYyEcvBuO2pob7ltXuZ5skBBdvLJOLVPKd1Ya8+8ColIM5AtBo5ww==",
+      "path": "system.drawing.common/8.0.5",
+      "hashPath": "system.drawing.common.8.0.5.nupkg.sha512"
+    }
+  }
+}
